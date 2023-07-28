@@ -1,4 +1,4 @@
-class MessagesController < ApplicationController
+class Api::V1::MessagesController < ApplicationController
   before_action :set_message, only: %i[ show update destroy ]
 
   # GET /messages
@@ -6,6 +6,11 @@ class MessagesController < ApplicationController
     @messages = Message.all
 
     render json: @messages
+  end
+
+  def random_greeting
+    random_message = Message.order('RANDOM()').first
+    render json: { greeting: random_message&.greeting }
   end
 
   # GET /messages/1
