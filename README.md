@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 React With Rails ](#-react-with-rails-)
+- [📖 Rails Back End ](#-rails-back-end-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -22,9 +22,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 React With Rails <a name="about-project"></a>
+# 📖 Rails Back End <a name="about-project"></a>
 
-**React With Rails** A simple back end application that build with Ruby on Rails Framework. It creates random gretting message from database and make is ready as an API endpoit.
+**Rails back end** A simple back end application that build with Ruby on Rails Framework. It creates random gretting message from database and make is ready as an API endpoit.
 
 ## 🛠 Built With <a name="built-with"></a>
 
